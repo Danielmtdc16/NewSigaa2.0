@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    border: none;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-instituicao{
+    align-self: center;
+    align-items: center;
+    width: 300px;
+    margin: 30px;
+}
+
+.info p{
+    text-align:center;
+    font-size:15px;
+}
+
+.nome-sistema{
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 10px 0 10px;
+}
+
+.mensagem-principal{
+    background-color: rgba(8, 74, 121, 0.839);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+form .input-pass{
+    padding-top: 5px;
+    
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    text-align: center;
+}
+
+
+
+form input{
+    background-color: rgba(205, 205, 248, 0.587);
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+form input::-webkit-input-placeholder {
+    color: #283139;
+    font-style:normal;
+    font-size:medium;
+    opacity: 0.8;
+  }
+
+form button{
+    background-color: rgb(8, 74, 121, 0.839);
+    color: white;
+    margin-top: 30px;
+    padding:20px;
+    align-self: center;
+    width: 400px;
+    border-radius: 30px;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: rgba(4, 47, 79, 0.915);
+}
+
+.form-autentic{
+    text-align: center;
+    
+}
+

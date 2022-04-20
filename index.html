@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloSigaa.css">
+    <title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+</head>
+
+
+<body>
+    <div class = "nome-sistema">
+        <h4>UFPI - SIGAA - Sistema de Gestão de Atividades Acadêmicas</h4>
+    </div>
+    <div class = "img">
+        <img class = "logo-instituicao" src="imgs/logo_ufpi.jpg" alt="">
+    </div>
+
+    <div class = "mensagem-principal">
+        <h3>Entre no sistema com seu usuário e senha cadastrados</h3>
+    </div>
+    
+    <div class = "info">
+        <p>ATENÇÃO</p>
+        <p>O sistema diferencia letras maiúsculas de minúsculas APENAS na senha, portanto, ela deve ser digitada da mesma maneira que no cadastro</p>
+        <br>
+        <br>
+    </div>
+    
+
+    
+    
+    <form class = "form-autentic" action="processa-dados-do-form" method="post">
+        <h2>Login</h2>
+
+        <div class = "dados">
+            <div class = "inputs">
+                <input type="text" id="nome" placeholder="Usuário">
+                
+                <input type="password" id="pass" name="password" minlength="8" placeholder="Senha:">
+            </div>
+            
+            <button type="submit" class = "button">Entrar</button>
+            
+        </div>
+    </form>
+</body>
+</html>
